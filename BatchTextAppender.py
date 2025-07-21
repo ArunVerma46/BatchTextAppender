@@ -4,7 +4,7 @@ import os
 folder_path = r"C:\Users\Welcome\Desktop\Notepad FIles"  
 
 # Step 2: Text likhna hai jo har file me add karna hai
-text_to_add = "\nThis text was added to all files.\n"
+text_to_add = "\nThis text was added to all files.\n" #Yaha n ka matlab hai new line
 
 # Step 3: Loop through all files in the folder means folder me sabhi files ko loop me lana hai
 for filename in os.listdir(folder_path):
